@@ -1,6 +1,5 @@
 import { useCallback, useState, useEffect } from "react";
-import { Navbar, Balance, Transaction, TransactionHistory, MonthlyTransaction } from "./Componants";
-
+import { Navbar, Balance, Transaction, TransactionHistory, MonthlyTransaction } from "./Components"
 function App() {
   const [allTransactions, setAllTransactions] = useState(() => {
     const saved = localStorage.getItem("transactions");
